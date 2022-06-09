@@ -1,0 +1,255 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+}
+
+body, html {
+    min-height: 100vh;
+    background-color: black;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+}
+
+.sociais {
+    display: flex;
+    max-width: 1500px;
+    align-items: center;
+    margin: auto;
+    padding: 3px;
+}
+
+.sociais p {
+    width: 70%;
+}
+
+.sociais p {
+    font-size: 1.4em;
+    font-variant: small-caps;
+    color: #D1603D;
+}
+
+.sociais-logo {
+    width: 30%;
+}
+
+.sociais-logo button {
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+    font-size: 1.8em;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    color: #D1603D;
+    cursor: pointer;
+}
+
+.sociais-logo button:hover {
+    color: white;
+}
+
+.container {
+    max-width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+}
+
+.logo {
+    width: 32%;
+    cursor: pointer;
+}
+
+.menu {
+    width: 68%;
+}
+
+.menu a {
+    margin-right: 35px;
+    font-size: 1.2em;
+    color: #D1603D;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.menu button {
+    padding: 7px;
+    font-size: 1.3em;
+    background-color: #D1603D;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    color: white;
+    transition: 0.1s;
+}
+
+.aqui-sla {
+    height: 68vh;
+    background-image: url('../imagens/burger01.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.produtos {
+    background-color: black;
+    text-align: center;
+}
+
+.produtos > h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 2.4em;
+    color: #D1603D;
+    text-align: left;
+    margin: 0px 0px 30px 167px;
+    font-family: 'Shrikhand', cursive;
+    padding: 20px;
+}
+
+.produtos01 {
+    display: inline-block;
+    margin-right: 50px;
+    border: none;
+    padding: 10px;
+    border: 2px solid #D1603D;
+    box-shadow: 0px 0px 20px #D1603D;
+    border-radius: 7px;
+}
+
+.produtos01 > img {
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.11);
+}
+
+.produtos01 > h2 {
+    margin: 20px 0px 20px 0px;
+    font-family: 'Carter One', cursive;
+    font-size: 1.7em;
+}
+
+.produtos01 > p {
+    margin: 5px 0px 5px 0px;
+    color: white;
+}
+
+.preço {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #D1603D;
+}
+
+.produtos01 > button {
+    margin-top: 25px;
+    padding: 8px;
+    width: 200px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #D1603D;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.produtos01 > button:hover {
+    color: white;
+}
+
+.main-cardapio > img {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.main-cadastro {
+    height: 200px;
+    background-image: url('../imagens/Cardápio\ e\ Menu\ para\ Hamburgueria\,\ Restaurante\,\ Lanchonete\ Gourmet.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+footer > p {
+    color: black;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #D1603D;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.cadastro {
+    background-color: #D1603D;
+    width: 1800px;
+    height: 100px;
+    display: flex;
+    margin: 50px auto;
+    border-radius: 3px;
+    box-shadow: 0px 0px 20px #d1603d7c;
+}
+
+.cadastro p {
+    margin-top: 26px;
+    margin-left: 20%;
+    margin-right: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2em;
+}
+
+.cadastro input {
+    height: 20px;
+    width: 300px;
+    padding: 18px;
+    margin-top: 33px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 4px;
+}
+
+.cadastro button {
+    height: 40px;
+    margin-top: 31px;
+    margin-left: 15px;
+    margin-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.692);
+    border-radius: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #D1603D;
+    color: black;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.699);
+}
+
+.cadastro button:hover {
+    background-color: black;
+    color: #D1603D;
+    font-weight: bold;
+}
+
+
